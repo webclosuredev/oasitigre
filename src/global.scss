@@ -1,0 +1,89 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import "@ionic/angular/css/display.css";
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+.header-md {
+    box-shadow: unset;
+}
+
+ion-toolbar {
+    background-color: #FFFFFF;
+    border-radius: 0% 0% 63% 63%;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+    box-shadow: 0px 8px 12px #f0a8816b;
+    text-align: center;
+    height: 23.769vw;
+}
+
+.footer * {
+    z-index: 1;
+}
+.footer ion-tab-bar {
+    background-color: #e95a0c;
+    box-shadow: 0 4px 20px rgba(41, 41, 41, 0.14);
+    height: 24.8717vw;
+    border-radius: 43% 40% 0 0;
+}
+.footer ion-tab-button {
+    background-color: #e95a0c;
+    color: white;
+}
+.footer-button {
+    display: flex;
+    flex-direction: column;
+}
+#card img { 
+    width: 10.256vw;
+    height: 10.256vw;
+    z-index: 2;
+}
+#card {
+    background-color: #FFFFFF;
+    border: 1.5384vw solid white;
+    border-radius: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-button {
+    width: 30vw;
+}
+.menu-button-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}

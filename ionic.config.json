@@ -1,0 +1,7 @@
+{
+  "name": "oasi-tigre",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
